@@ -1,28 +1,19 @@
 import {
-  faMobileButton,
   faLaptopCode,
   faServer,
-  faBrain,
+  faCode,
 } from "@fortawesome/free-solid-svg-icons";
 import { IServiceItem } from "@/types";
 
 const services: IServiceItem[] = [
   {
-    title: "Mobile App Development",
-    icon: faMobileButton,
-    shortDescription:
-      "I specialize in creating captivating mobile applications that engage your audience.",
-    description:
-      "I specialize in creating captivating mobile applications that engage your audience. From concept to deployment, I develop native and cross-platform apps for iOS and Android. With cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that aligns perfectly with your business goals.",
-  },
-  {
-    title: "Web Development",
+    title: "Front-End Development",
     icon: faLaptopCode,
     shortDescription:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence.",
+      "I deliver visually stunning and user-friendly interfaces to help you establish a strong online presence.",
     description:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence. Whether it's a simple informational site or a complex e-commerce platform, I provide tailored web development solutions. Using the latest frameworks and technologies, I create responsive, SEO-friendly websites that offer a seamless browsing experience on all devices.",
-  },
+      "I specialize in delivering visually stunning and user-friendly interfaces to help you establish a strong online presence. Whether it's a simple informational site or a complex web application, I provide tailored front-end development solutions. Using the latest frameworks and technologies, I create responsive, SEO-friendly interfaces that offer a seamless browsing experience on all devices."
+    },
   {
     title: "Backend Development",
     icon: faServer,
@@ -32,13 +23,13 @@ const services: IServiceItem[] = [
       "I enhance your digital applications with a robust and scalable backend infrastructure. With expertise in backend development, I create efficient database structures, develop APIs, and configure servers to ensure optimal performance, security, and scalability. My solutions empower your applications to seamlessly handle high traffic and complex data management.",
   },
   {
-    title: "Product Strategy",
-    icon: faBrain,
+    title: "Web Development",
+    icon: faCode,
     shortDescription:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success.",
+    "I create visually stunning and user-friendly websites to establish a strong online presence for your business.",
     description:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success. My expertise in product ideation and market analysis ensures that your product not only meets user needs but also aligns with your business strategy for long-term growth and full potential of your digital products with effective product strategy.",
-  },
+      "I create visually stunning and user-friendly websites to establish a strong online presence for your business. Whether it's a simple informational site or a complex e-commerce platform, I provide customized web development solutions. Leveraging the latest frameworks and technologies, I build responsive, SEO-friendly websites that ensure a seamless experience across all devices."
+   },
 ];
 
 export default services;

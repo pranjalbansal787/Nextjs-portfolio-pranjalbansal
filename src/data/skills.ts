@@ -14,11 +14,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/typescript.svg",
       },
-      {
-        title: "Dart",
-        level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
-      },
     ],
   },
   {
@@ -26,18 +21,13 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "Next.js",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Intermediate,
         icon: "/skills/nextjs.svg",
       },
       {
         title: "React.js",
-        level: SkillLevel.Expert,
+        level: SkillLevel.Intermediate,
         icon: "/skills/react.svg",
-      },
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
       },
       {
         title: "HTML",
@@ -69,11 +59,6 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/express.svg",
       },
-      {
-        title: "Nest.js",
-        level: SkillLevel.Begginer,
-        icon: "/skills/nestjs.svg",
-      },
     ],
   },
   {
@@ -83,11 +68,6 @@ const skills: ISkillListItem[] = [
         title: "MongoDB",
         level: SkillLevel.Intermediate,
         icon: "/skills/mongodb.svg",
-      },
-      {
-        title: "PostgreSQL",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
       },
       {
         title: "MySQL",
@@ -114,25 +94,10 @@ const skills: ISkillListItem[] = [
   {
     title: "Miscellaneous",
     items: [
-      // {
-      //   title: "WebSockets",
-      //   level: SkillLevel.Intermediate,
-      //   icon: "/images/logical-thinking.png",
-      // },
-      // {
-      //   title: "GetX",
-      //   level: SkillLevel.Expert,
-      //   icon: "/images/logical-thinking.png",
-      // },
       {
         title: "Redux",
-        level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
-      },
-      {
-        title: "AWS",
         level: SkillLevel.Intermediate,
-        icon: "/skills/aws.svg",
+        icon: "/skills/redux.svg",
       },
       {
         title: "Firebase",

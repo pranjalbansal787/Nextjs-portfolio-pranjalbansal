@@ -27,7 +27,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               <p className="text-base/6 drop_in">Hi 👋 I&apos;m</p>
 
               <p className="text-4xl/normal md:text-5xl/normal font-bold text-[var(--primaryColor)] drop_in">
-                Nikhil Rajput
+                Pranjal Bansal
               </p>
 
               <p className="text-sm/6 font-medium text-[var(--textColorLight)] drop_in">
@@ -76,14 +76,14 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <Row classNames="w-[20rem] h-[20rem] lg:w-[25rem] lg:h-[25rem] pointer-events-none justify-self-center sm:justify-self-end items-center justify-center rounded-full bg-transparent border-2 border-[var(--primaryColor60)] aspect-sqaure overflow-hidden my-auto drop_out">
             <Row classNames="w-full h-auto items-center justify-center rounded-full bg-transparent border-[0.8rem] border-[var(--primaryColor30)] aspect-sqaure overflow-hidden pointer-events-none">
               <Image
-                src="/images/profile.webp"
+                src="/images/profile_pranjal.jpg"
                 alt="profile"
                 width={400}
                 height={400}
                 sizes="100%"
                 priority
                 placeholder="blur"
-                blurDataURL="/images/profile.webp"
+                blurDataURL="/images/profile_pranjal.jpg"
                 style={{
                   objectFit: "cover",
                   width: "100%",
